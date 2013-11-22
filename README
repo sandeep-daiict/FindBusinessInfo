@@ -1,0 +1,9 @@
+compile all source code or use run.jar
+to run pass <folder location of dataset> <proxy host ip> <proxy host port num>
+
+output result.txt
+
+Approach on first phase crawl all homepage url got from yelp.com and find email and if email not found list contactus url in curl.txt and crawl curl.txt again to find email and keep in email.txt and merge in end.
+log contains url of link not crawled sucessfully for future crawl.
+
+used regex for phone number email and contact us url.
